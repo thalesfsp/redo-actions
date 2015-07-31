@@ -25,7 +25,10 @@
     "localstorage",
     "redo"
   ],
-  "engines" : {"node" : ">=0.10"},
+  "engines" : {
+    "node": ">= 0.10",
+    "npm": ">= 2"
+  },
   "dependencies": {
     "body-parser": "~1.13.2",
     "bower": "^1.4.1",

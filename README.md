@@ -1,7 +1,7 @@
 # InsaneHash
 
-Since: 07/31/2015
-Author: Thales Pinheiro
+Since: 07/31/2015   
+Author: Thales Pinheiro   
 
 ## Abstraction
 

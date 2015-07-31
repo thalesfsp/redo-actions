@@ -1,0 +1,23 @@
+{
+  "name": "redo-actions",
+  "description": "A library that allow you to redo actions",
+  "version": "0.0.0",
+  "author": "thalesfsp <thalesfsp@gmail.com>",
+  "maintainers": "thalesfsp <thalesfsp@gmail.com>",
+  "contributors": [{"name": "thalesfsp", "email": "thalesfsp@gmail.com"}],
+  "license": "CC-BY-SA-4.0",
+  "homepage": "https://github.com/thalesfsp/redo-actions",
+  "bugs": {"url": "https://github.com/thalesfsp/redo-actions/issues"},
+  "repository": {"type": "git", "url": "git@github.com:thalesfsp/redo-actions.git"},
+  "keywords": [
+    "history",
+    "timeline",
+    "localstorage",
+    "redo"
+  ],
+  "main": "bin/redo-actions.js",
+  "dependencies": {
+    "amplify": "~1.1.2",
+    "jquery": "~2.1.4"
+  }
+}

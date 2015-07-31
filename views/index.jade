@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  //if lt IE 8
+    p
+      | You are using an
+      strong outdated
+      |  browser. Please
+      a(href='http://browsehappy.com/') upgrade your browser
+      |  to improve your experience.
+
+  h1=title
+
+  h2 Todo:
+  ul
+    li check online/offline
+    li persist data to the server
+    li add tests
+
+  h2 Try:
+  ol
+    li add some items and open another tab;
+    li add some items, close your browser and open again;
+
+  div.list-container
+    h2 List
+    ul.list
+
+  input.text(type='text', name='text', placeholder="write something here")
+
+  br
+  br
+
+  button.save(type='button') save
+  button.persist(type='button') persist
+  button.redo(type='button') redo
+  button.reset(type='button') reset
+
+  script(src='components/jquery/dist/jquery.js')
+  script(src='components/amplify/lib/amplify.js')
+  script(src='javascripts/actions.js')
+  script(src='javascripts/model.js')
+  script(src='javascripts/events.js')
+  script(src='javascripts/app.js')
+

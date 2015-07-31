@@ -1,5 +1,6 @@
 {
   "name": "redo-actions",
+  "description": "A library that allow you to redo actions",
   "version": "0.0.0",
   "author": "thalesfsp <thalesfsp@gmail.com>",
   "maintainers": "thalesfsp <thalesfsp@gmail.com>",
@@ -24,6 +25,7 @@
     "localstorage",
     "redo"
   ],
+  "engines" : {"node" : ">=0.10"},
   "dependencies": {
     "body-parser": "~1.13.2",
     "bower": "^1.4.1",
